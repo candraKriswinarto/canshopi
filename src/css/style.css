@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-wave {
+  background: #5C6AC4;
+  position: relative;
+  min-height: 600px;
+  color: #fff;
+}
+@media (min-width: 1080px) {
+  .bg-wave .col h4 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1080px) {
+  .bg-wave .col h3 {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 1080px) {
+  .bg-wave .col .tag {
+    font-size: 2rem;
+  }
+}
+.bg-wave .tag {
+  font-size: 1.5rem;
+}
+.bg-wave .form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.bg-wave .form-group input {
+  height: 3rem;
+}
+.bg-wave .form-group button {
+  height: 3rem;
+  flex-basis: 20%;
+}
+.bg-wave .free-try {
+  font-size: 0.8rem;
+}
+.bg-wave .home-img img {
+  width: 70%;
+}
+
+#feature-section {
+  margin: 8rem 0 4rem;
+}
+#feature-section .fas {
+  color: #5C6AC4;
+}
+
+#testimonial {
+  margin: 5rem 0 5rem;
+}
+#testimonial .testimonial-text {
+  padding: 0 4rem;
+}
+#testimonial .btn {
+  background: #5C6AC4;
+  color: #fff;
+}
+#testimonial .btn:hover, #testimonial .btn:focus {
+  background: #202E78;
+}
+
+#free-trial-modal .btn-modal {
+  background: #5C6AC4;
+  color: #fff;
+}
+#free-trial-modal .btn-modal:hover, #free-trial-modal .btn-modal:focus {
+  background: #202E78;
+}
+
+/*# sourceMappingURL=style.css.map */

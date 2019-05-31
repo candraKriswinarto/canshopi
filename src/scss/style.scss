@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$primary-color: #5C6AC4;
+
+$desktop: 1080px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-wave {
+    background: $primary-color;
+    position: relative;
+    min-height: 600px;
+    color: #fff;
+
+    // Desktop
+    .col {
+        h4 {
+            @include desktop {
+                font-size: 2rem;
+            }
+        }
+
+        h3 {
+            @include desktop {
+                font-size: 3.5rem;
+            }
+        }
+
+        .tag {
+            @include desktop {
+                font-size: 2rem;
+            }
+        }
+
+    }
+
+    .tag {
+        font-size: 1.5rem;
+    }
+
+    .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .form-group {
+        input {
+            height: 3rem;
+        }
+        button {
+            height: 3rem;
+            flex-basis: 20%;
+        }
+    }
+
+    .free-try {
+        font-size: .8rem;
+    }
+
+    .home-img img{
+        width: 70%;
+    }
+}
+
+#feature-section {
+    margin: 8rem 0 4rem;
+
+    .fas {
+        color: $primary-color;
+    }
+}
+
+#testimonial {
+    margin: 5rem 0 5rem;
+
+    .testimonial-text {
+        padding: 0 4rem;
+    }
+
+    .btn {
+        background: $primary-color;
+        color: #fff;
+
+        &:hover, &:focus {
+            background: #202E78;
+        }
+    }
+}
+
+#free-trial-modal {
+    .btn-modal {
+        background: $primary-color;
+        color: #fff;
+    
+        &:hover, &:focus {
+            background: #202E78;
+        }
+    }
+}
+
